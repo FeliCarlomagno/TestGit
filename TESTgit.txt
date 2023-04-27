@@ -7,3 +7,4 @@
 -> git commit -message "messaggio del commit" : SALVA I FILE TRACCIATI NELLA REPO LOCALE,
 -> git branch -M main : CREA UN BRANCH DI NOME "MAIN";
 -> git remote add origin https://github.com/vostroRepository/TestGit.git : 
+-> git push -u origin main : 
