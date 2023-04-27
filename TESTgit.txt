@@ -1,0 +1,7 @@
+-> git init : CREA LA REPO LOCALE; (apriamo la git bash nella cartella deel progetto)
+-> git status : CONTROLLA LO STATO DELLA REPO;
+-> git add nomeFile : TRACCIA UN FILE;
+-> git add .ext : MI TRACCIA I FILE CON ESTENSIONE .ext
+-> git add . : TRACCIA TUTTI I FILE PRESENTI;
+-> git rm --cached <file>... : RIMUOVE UNO O PIU' FILE DALLA STAGING AREA;
+-> git commit -message "messaggio del commit" : SALVA I FILE TRACCIATI NELLA REPO LOCALE,
