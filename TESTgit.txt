@@ -25,3 +25,13 @@
 - git touch nuovoFile --> CREA UN NUOVO FILE DA TERMINALE;
 
 - git branch --> STAMPA UN ELENCO DI BRANCH;
+
+- git push --set-upstream origin sviluppo --> 
+
+- git merge nomeBranch --> UNISCE I BRANCH;
+
+- git branch -D nomeBranch--> MI FORZA LA CANCELLAZIONE DI UN BREANCH NON ANCORA MERGHIATO; 
+
+- git branch -d nomeBranch --> CANCELLA UN BRANCH CONSUMATO E AGGREGATO AL BRANCH PRINICIPALE E QUINDI NON HA MOTIVO DI ESISTERE ANCORA;
+
+- git branch --no-merged --> ELENCO DI BRANCH SUL QUALE NON E' STATO FATTO ANCORA NESSUN MERGE;
