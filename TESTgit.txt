@@ -1,10 +1,29 @@
--> git init : CREA LA REPO LOCALE; (apriamo la git bash nella cartella deel progetto)
--> git status : CONTROLLA LO STATO DELLA REPO (SE C'E' QUALCHE FILE MODIFICATO, NON COMMITTATO ECC..);
--> git add nomeFile : TRACCIA UN FILE;
--> git add .ext : MI TRACCIA I FILE CON ESTENSIONE .ext
--> git add . : TRACCIA TUTTI I FILE PRESENTI;
--> git rm --cached <file>... : RIMUOVE UNO O PIU' FILE DALLA STAGING AREA;
--> git commit -message "messaggio del commit" : SALVA I FILE TRACCIATI NELLA REPO LOCALE,
--> git branch -M main : CREA UN BRANCH DI NOME "MAIN";
--> git remote add origin https://github.com/vostroRepository/TestGit.git : 
--> git push -u origin main : 
+- git init --> CREA LA REPO LOCALE; (apriamo la git bash nella cartella deel progetto);
+
+- git status --> CONTROLLA LO STATO DELLA REPO (SE C'E' QUALCHE FILE MODIFICATO, NON COMMITTATO ECC..);
+
+- git add nomeFile --> TRACCIA UN FILE;
+
+- git add .ext --> MI TRACCIA I FILE CON ESTENSIONE .ext;
+
+- git add . --> TRACCIA TUTTI I FILE PRESENTI;
+
+- git rm --cached <file>... --> RIMUOVE UNO O PIU' FILE DALLA STAGING AREA;
+
+- git commit -message "messaggio del commit" --> SALVA I FILE TRACCIATI NELLA REPO LOCAL;,
+
+- git branch -M main --> CREA UN BRANCH DI NOME "MAIN" DI BASE PER COLLEGARLO AL REPO REMOTO;
+
+- git remote add origin https://github.com/vostroRepository/TestGit.git --> COLLEGA IL REPO LOCALE AD UNA REPO REMOTA;
+
+- git push -u origin main --> ESEGUE IL PUSH DI TUTTO IL CONTENUTO DELLA REPO LOCALE SULLA REPO REMOTA;
+
+- git branch nomeBranch --> STACCO UN NUOVO BRANCH DI NOME "nomeBranch";
+
+- git checkout  nomeBranch --> MI SPOSTO SUL NUOVO BRANCH (POICHE' LA MIGRAZIONE NON E' AUTOMATICA ALLA CREAZIONE DI UN NUOVO BRANCH);
+
+- git touch nuovoFile --> CREA UN NUOVO FILE DA TERMINALE;
+
+- git branch --> STAMPA UN ELENCO DI BRANCH;
+
+- git push --set-upstream origin sviluppo -->
