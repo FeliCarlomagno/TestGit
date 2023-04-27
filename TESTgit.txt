@@ -10,11 +10,11 @@
 
 - git rm --cached <file>... --> RIMUOVE UNO O PIU' FILE DALLA STAGING AREA;
 
-- git commit -message "messaggio del commit" --> SALVA I FILE TRACCIATI NELLA REPO LOCAL;,
+- git commit -m "messaggio del commit" --> SALVA I FILE TRACCIATI NELLA REPO LOCAL;,
 
 - git branch -M main --> CREA UN BRANCH DI NOME "MAIN" DI BASE PER COLLEGARLO AL REPO REMOTO;
 
-- git remote add origin https://github.com/vostroRepository/TestGit.git --> COLLEGA IL REPO LOCALE AD UNA REPO REMOTA;
+- git remote add origin + URL (https://github.com/vostroRepository/TestGit.git) --> COLLEGA IL REPO LOCALE AD UNA REPO REMOTA;
 
 - git push -u origin main --> ESEGUE IL PUSH DI TUTTO IL CONTENUTO DELLA REPO LOCALE SULLA REPO REMOTA;
 
@@ -35,3 +35,19 @@
 - git branch -d nomeBranch --> CANCELLA UN BRANCH CONSUMATO E AGGREGATO AL BRANCH PRINICIPALE E QUINDI NON HA MOTIVO DI ESISTERE ANCORA;
 
 - git branch --no-merged --> ELENCO DI BRANCH SUL QUALE NON E' STATO FATTO ANCORA NESSUN MERGE;
+
+- git tag v1.0.0 --> TAG DI TIPO LIGHTWEIGHT;
+
+- git tag -a v1.1.0 -m "Messaggio" --> TAG DI TIPO ANNOTATED PIU' COMPLETO RISPETTO AL LIGHTWEIGHT;
+
+- git tag -->  PER VISUALIZZARE TUTTI I TAG RILASCIATI;
+
+- git remote -v --> 
+
+- git fetch --> MI SCARICA DEI FILE PRESENTI SULLA REPO REMOTA MA NON LO IMPORT NEL MIO PROGETTO LOCALE;
+
+- git pull --> SCARICA I FILE DELLA REPO REMOTA E LI IMPORTA DIRETTAMENTE NELLA MIA REPO LOCALE;
+
+- git log --> ANDIAMO A STAMPARE IN CONSOLE L'ELENCO DEI COMMIT EFFETTUATI;
+
+- git log --pretty= oneline -3 --> MOSTRA IN CONSOLE GLI ULTIMI TRE COMMIT EFFETTUATI;
